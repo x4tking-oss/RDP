@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: remote-desktop
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: VNC_PASSWORD
+        value: MyS3cure_P@ss!
+      - key: RESOLUTION
+        value: 1280x720
