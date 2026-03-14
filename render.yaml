@@ -6,6 +6,6 @@ services:
     healthCheckPath: /
     envVars:
       - key: VNC_PASSWORD
-        value: MyS3cure_P@ss!
+        value: MyS3cure_P@ss! # Ide írd a saját jelszavadat
       - key: RESOLUTION
         value: 1280x720
